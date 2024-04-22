@@ -1,0 +1,55 @@
+[   {
+        "id": "1",
+        "tipo" : "Pintura",
+        "nombre": "La Mona Lisa",
+        "Autor":["Leonardo da Vinci"],
+        "Año de producción": 1503,
+        "Descripcion": "Esta icónica pintura representa a una mujer con una enigmática sonrisa. Es conocida por su expresión enigmática y su mirada cautivadora, que ha intrigado a espectadores durante siglos. La pintura se ha convertido en un símbolo de la cultura occidental.",
+        "Caracteristicas": "77 cm x 53 cm",
+        "Estado": "Disponible"
+        
+
+    },
+    {
+        "id": "2",
+        "Tipo": "Pintura",
+        "nombre": "La Noche Estrellada",
+        "Autor":["Vicent Van Gogh"],
+        "Año de producción": 1889,
+        "Descripción": "Esta obra maestra postimpresionista muestra un paisaje nocturno con un cielo estrellado sobre un pueblo y un ciprés. Van Gogh pintó esta obra durante su estancia en el asilo de Saint-Rémy-de-Provence. La vibrante y tumultuosa pincelada de Van Gogh transmite una sensación de movimiento y emoción",
+        "Caracteristicas": "Dimensiones: 73.7 cm x 92.1 cm",
+        "Estado": "Bloqueada"
+    },
+
+    {
+        "id": "3",
+        "Tipo": "Pintura",
+        "nombre": "La Noche Estrellada",
+        "Autor":["Vicent Van Gogh"],
+        "Año de producción": 1889,
+        "Descripción": "Esta obra maestra postimpresionista muestra un paisaje nocturno con un cielo estrellado sobre un pueblo y un ciprés. Van Gogh pintó esta obra durante su estancia en el asilo de Saint-Rémy-de-Provence. La vibrante y tumultuosa pincelada de Van Gogh transmite una sensación de movimiento y emoción",
+        "Caracteristicas": "Dimensiones: 73.7 cm x 92.1 cm",
+        "Estado": "Bloqueada"
+    },
+    {
+        "id": "4",
+        "Tipo": "Escultura",
+        "nombre": "David",
+        "Autor":["Miguel Ángel Buonarroti"],
+        "Año de producción": 1501,
+        "Descripción": "Esta escultura de mármol representa al héroe bíblico David, famoso por haber derrotado al gigante Goliat. Miguel Ángel capturó la figura en un momento de tensión, con David preparándose para enfrentarse al gigante. La escultura es admirada por su perfección anatómica y su expresión concentrada.",
+        "Caracteristicas": "Escultura de mármol, con 5.17 Metros",
+        "Estado": "Bloqueada"
+    },
+        {
+        "id": "5",
+        "Tipo": "Escultura",
+        "nombre": "La Piedad",
+        "Autor":["Miguel Ángel Buonarroti"],
+        "Año de producción": "1498-1499",
+        "Descripción": "Esta escultura de mármol representa a la Virgen María sosteniendo el cuerpo de Jesucristo después de la Crucifixión. Miguel Ángel logró transmitir una profunda sensación de tristeza y serenidad en esta obra maestra. La delicadeza de los detalles anatómicos y la expresión de dolor en los rostros hacen de esta pieza una de las más conmovedoras del arte renacentista",
+        "Caracteristicas": "Escultura de mármol y sus dimensiones son 179 cm, 195 cm y 69 cm",
+        "Estado": "Bloqueada"
+    }
+]
+
