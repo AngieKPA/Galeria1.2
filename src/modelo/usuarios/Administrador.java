@@ -5,14 +5,24 @@ import java.util.List;
 
 import modelo.inventario.Piezas;
 import modelo.inventario.Subasta;
+import persistencia.PersistenciaInventario;
+import persistencia.PersistenciaUsuarios;
 
 public class Administrador extends Usuarios{
 	
 	private Subasta subasta;
+	private PersistenciaInventario persistenciaInventario;
+	private PersistenciaUsuarios persistenciaUsuarios;
 	private Cliente cliente;
+    private List<Usuarios> listaUsuarios;
+    private List<Piezas> listaPiezas;
 	
-    public Administrador(Subasta subasta) {
+    public Administrador(Subasta subasta,PersistenciaInventario persistenciaInventario,
+            List<Usuarios> listaUsuarios, List<Piezas> listaPiezas) {
         this.subasta = subasta;
+        this.persistenciaInventario = persistenciaInventario;
+        this.listaUsuarios = listaUsuarios;
+        this.listaPiezas = listaPiezas;
     }
 	
 	public void aprobarSubasta(String idPieza, String nuevoEstado, Boolean cumple) {
@@ -30,6 +40,7 @@ public class Administrador extends Usuarios{
                 Cliente cliente = (Cliente) usuario;
                 cliente.setEstado("Activo");
                 System.out.println("Se ha actualizado el estado del Cliente a activo");
+                
                 return;
             }
         }
@@ -50,4 +61,9 @@ public class Administrador extends Usuarios{
         System.out.println("No se encontró ningún el cliente");
     }
 	
+	public void guardarCambiosEnArchivos(List<Usuarios> listaUsuarios, List<Piezas> listaPiezas) {
+	    persistenciaUsuarios.guardarUsuarios(listaUsuarios);
+	    persistenciaInventario.escribirPiezas(listaPiezas);
+	}
+
 }
